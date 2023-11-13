@@ -1,23 +1,29 @@
-import logo from './logo.svg';
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { AboutMe } from './intro/AboutMe';
+import Navbar from './header/header';
 import './App.css';
+import { Profile } from './intro/profile';
+import ImageSlider from './components/ImageSlider';
+import { SliderData } from './components/SliderData';
+import Timeline from './journey/timeline';
+import Footer from './footer/footer'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar />
+      <Profile />
+      <div id="about-me">
+        <AboutMe />
+      </div>
+      <div id="project">
+        <ImageSlider slides={SliderData} />
+      </div>
+      <div id="journey">
+        <Timeline />
+      </div>
+      <Footer />
     </div>
   );
 }
