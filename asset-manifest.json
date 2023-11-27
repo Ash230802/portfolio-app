@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/nurnajwaashyiela/static/css/main.fa9e2833.css",
+    "main.js": "/nurnajwaashyiela/static/js/main.c5e7dca6.js",
+    "static/js/787.30237536.chunk.js": "/nurnajwaashyiela/static/js/787.30237536.chunk.js",
+    "index.html": "/nurnajwaashyiela/index.html",
+    "main.fa9e2833.css.map": "/nurnajwaashyiela/static/css/main.fa9e2833.css.map",
+    "main.c5e7dca6.js.map": "/nurnajwaashyiela/static/js/main.c5e7dca6.js.map",
+    "787.30237536.chunk.js.map": "/nurnajwaashyiela/static/js/787.30237536.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fa9e2833.css",
+    "static/js/main.c5e7dca6.js"
+  ]
+}
