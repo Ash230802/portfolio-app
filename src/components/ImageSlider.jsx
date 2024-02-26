@@ -20,8 +20,7 @@ const ImageSlider = ({ slides }) => {
   return (
     <>
         <Typography variant="h4" style={{ textAlign: "center", margin: "2rem" }}>Portfolio</Typography>
-        <Grid container className="slider" justifyContent="center" alignItems="center">
-            <Grid item xs={1} display="flex" justifyContent="center">
+        <Grid container className="slider" justifyContent="center" alignItems="center"> <Grid item xs={1} display="flex" justifyContent="center">
                 <IconButton onClick={prevSlide} style={{ color: 'white', fontSize: '2rem'}}>
                 <FaChevronLeft />
                 </IconButton>
@@ -40,7 +39,7 @@ const ImageSlider = ({ slides }) => {
                                 <div style={{ textAlign: 'center' }}>
                                     <Typography variant='h4' style={{ paddingTop: '1rem' }}>
                                         {slide.title}
-                                    </Typography>
+                                   </Typography>
                                     <Typography variant='h7'>{slide.description}</Typography>
                                     <a href={slide.link} style={{ display: 'block', textDecoration: 'none', color: 'white', fontWeight: 'bold', padding: '1rem' }}>VISIT CODE</a>
 

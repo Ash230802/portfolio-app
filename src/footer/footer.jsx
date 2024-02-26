@@ -6,8 +6,8 @@ const Footer = () => {
     const paddingTop= {paddingTop: '0.5rem'};
     const downloadHandler = () => {
         const link = document.createElement('a');
-            link.href = '/Najwa_Ashyiela_Resume.pdf';
-            link.download = 'Najwa_Ashyiela_Resume.pdf';
+            link.href = 'Najwa_Ashyiela_Resume.pdf';
+            link.download = '/Najwa_Ashyiela_Resume.pdf';
             link.click();
     };
   return (

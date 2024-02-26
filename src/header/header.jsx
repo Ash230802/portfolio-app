@@ -12,8 +12,9 @@ const sections = [
         id: 'download-resume',
         handler: () => {
             const link = document.createElement('a');
-            link.href = '/Najwa_Ashyiela_Resume.pdf';
-            link.download = 'Najwa_Ashyiela_Resume.pdf';
+            link.href = 'Najwa_Ashyiela_Resume.pdf';
+            link.download = '/Najwa_Ashyiela_Resume.pdf';
+            link.target = '_blank';
             link.click();
         }, 
     },

@@ -11,7 +11,7 @@ export const Profile = () => {
     return(
         <div>
             <div className='image-container'>
-                <img src="profilePic.jpg" alt="Profile Picture"/>
+                <img src="GambarFormal.jpg" alt="Profile Picture"/>
             </div>
             <div class="header-text">
                 <Typography variant={isSmallScreen ? 'h4' : 'h3'}>Najwa Ashyiela</Typography>
